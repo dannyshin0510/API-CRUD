@@ -1,4 +1,4 @@
-## API (CRUD) on DRF (with auth)
+## API (CRUD) on DRF (with auth) :airplane:
 This is a quick set-up of **CRUD** - Create, Read, Update, and Delete on the Django Rest Framework.
 
 The authentication is implemented using JWT Auth for **DRF** - Django Rest Framework
@@ -6,20 +6,17 @@ The authentication is implemented using JWT Auth for **DRF** - Django Rest Frame
 
 Feel free to utilize this repo for API studies, or a quick template for projects or application development.
  
-#### Jwt token endpoint
-Method | Endpoint | Functionanlity
---- | --- | ---
-POST | `/api-token-auth` | Request jwt token
 
 #### API Endpoints
 
 Method | Endpoint | Functionality
 --- | --- | ---
-GET | `/api/user/create` | Creates a user
-GET | `/api/user/profile/{pk}` | Retrieve a user
-POST | `/api/user` | List users
-PUT | `/api/user/update/{pk}` | Edit a user
-DELETE | `/api/user/destroy/{pk}` | Delete a user
+GET | `/api/user/create` | Create user
+GET | `/api/user/profile/{pk}` | Fetch user
+POST | `/api/user` | Fetch users
+POST | `/api-token-auth` | Fetch auth token
+PUT | `/api/user/update/{pk}` | Change user
+DELETE | `/api/user/destroy/{pk}` | Delete user
 
 
 ## Installation 
