@@ -9,14 +9,14 @@ Feel free to utilize this repo for API studies, or a quick template for projects
 
 #### API Endpoints
 
-Method | Endpoint | Functionality
---- | --- | ---
-GET | `/api/user/create` | Create user
-GET | `/api/user/profile/{pk}` | Fetch user
-POST | `/api/user` | Fetch users
-POST | `/api-token-auth` | Fetch auth token
-PUT | `/api/user/update/{pk}` | Change user
-DELETE | `/api/user/destroy/{pk}` | Delete user
+ Endpoint | Functionality
+--- | ---
+`/api/user/create` | Create user
+`/api/user/profile/{pk}` | Fetch user
+`/api/user` | Fetch users
+`/api-token-auth` | Fetch auth token
+`/api/user/update/{pk}` | Change user
+`/api/user/destroy/{pk}` | Delete user
 
 
 ## Installation 
